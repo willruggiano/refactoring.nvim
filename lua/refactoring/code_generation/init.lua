@@ -1,3 +1,4 @@
+local cpp = require("refactoring.code_generation.cpp")
 local javascript = require("refactoring.code_generation.javascript")
 local typescript = require("refactoring.code_generation.typescript")
 local lua = require("refactoring.code_generation.lua")
@@ -6,6 +7,7 @@ local cpp = require("refactoring.code_generation.cpp")
 local python = require("refactoring.code_generation.python")
 
 local M = {
+    cpp = cpp,
     javascript = javascript,
     typescript = typescript,
     lua = lua,
